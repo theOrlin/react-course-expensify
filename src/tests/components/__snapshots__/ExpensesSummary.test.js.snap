@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render proper message for a single expense 1`] = `
+<p>
+  Viewing 
+  1
+   expense
+   totalling 
+  1.95
+</p>
+`;
+
+exports[`should render proper message for multiple expenses 1`] = `
+<p>
+  Viewing 
+  3
+   expense
+  s
+   totalling 
+  1,141.95
+</p>
+`;
