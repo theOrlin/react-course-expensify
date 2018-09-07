@@ -11,6 +11,8 @@ import { setTextFilter, setStartDate, setEndDate, sortByDate, sortByAmount } fro
 import getVisibleExpenses from './selectors/expenses';
 import 'react-dates/lib/css/_datepicker.css';
 
+import './firebase/firebase';
+
 const store = configureStore();
 
 const jsx = (
