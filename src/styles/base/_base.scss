@@ -9,8 +9,10 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    color: $dark-gray;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
+    line-height: 1.6;
 }
 
 button {

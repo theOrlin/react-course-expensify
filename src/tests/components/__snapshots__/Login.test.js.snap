@@ -2,10 +2,24 @@
 
 exports[`should render Login page correctly 1`] = `
 <div
-  className="login-container"
+  className="box-layout"
 >
-  <button>
-    Log In
-  </button>
+  <div
+    className="box-layout__box"
+  >
+    <h1
+      className="box-layout__title"
+    >
+      Expensify
+    </h1>
+    <p>
+      Get your expenses under control
+    </p>
+    <button
+      className="button"
+    >
+      Log In with Google
+    </button>
+  </div>
 </div>
 `;
